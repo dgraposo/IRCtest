@@ -6,7 +6,7 @@ If you want to create the example from scracth in another IDE, the following lib
 * The [JSON-C library](https://github.com/json-c/json-c);
 
 The data is retrieved by invoking an HTTP GET, and a JSON array object is retrieved by the API (with the data from the students). 
-The privacy server will act as an anonymisation server, protecting the privacy of the students.
+The privacy server will act as an anonymisation server, protecting the privacy of the students. The clients that interact with the privacy server will be able to retrieve their own data (the student ID will act as a token that gives access to indivisual data). When retrieved group data, the proxy server will anonymize the data to the clients.
 
 ## Code
 
@@ -29,7 +29,7 @@ The privacy server will act as an anonymisation server, protecting the privacy o
  ```
  
 The fields available in the ISABELA API are:
-* id: student ID code;
+* id: student ID code (check your ID in the ISABELA Android settings);
 * activity: student activity (Exercise,Sleeping,Classes,Tilting,Walking,In vehicle,Unknown,Still)
 * location: student location (University, House, Other)
 * callsduration: duration of calls made in the last 5 seconds
