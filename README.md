@@ -1,6 +1,7 @@
 # IRC Privacy Server
-This example gives you a sample code to interact with ISABELA API. The sample code was built to Visual Studio Community. If you want to run the code, with all the libraries already installed and pre-compiled, you need to install the [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/?sku=Community&rel=15#)
-To run this code, the following libraries need to be installed and configured (if you want to create the example from scracth to other IDE):
+This example gives you a sample code to interact with ISABELA API. The sample code was built to Visual Studio Community. If you want to run the code, with all the libraries already installed and pre-compiled, you need to install the [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/thank-you-downloading-visual-studio/?sku=Community&rel=15#).
+
+If you want to create the example from scracth and use it in another IDE, the following libraries need to be installed:
 * The [Libcurl C library](https://curl.haxx.se/libcurl/);
 * The [JSON-C library](https://github.com/json-c/json-c);
 
