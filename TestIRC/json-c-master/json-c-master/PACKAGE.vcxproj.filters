@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\4652dff58ec8d1f2a77286167f8057a6\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{716373F8-83EB-3903-9DDC-5AE35B5D7518}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
