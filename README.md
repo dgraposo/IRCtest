@@ -18,7 +18,7 @@ The privacy server will act as an anonymisation server, protecting the privacy o
  ```c
 	jobj_array = get_student_data();
  ```
- 3. Get individual fields from the array of data
+ 3. Get individual fields from the array of data (e.g., location)
  ```c
 	arraylen = json_object_array_length(jobj_array);
 	for (i = 0; i < arraylen; i++) {
