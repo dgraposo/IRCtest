@@ -6,7 +6,7 @@ If you want to create the example from scracth in another IDE, the following lib
 * The [JSON-C library](https://github.com/json-c/json-c);
 
 The data is retrieved by invoking an HTTP GET, and a JSON array object is retrieved by the API (with the data from the students). 
-The privacy server will act as an anonymisation server, protecting the privacy of the students. The clients that interact with the privacy server will be able to retrieve their own data (the student ID will act as a token that gives access to indivisual data). When retrieved group data, the proxy server will anonymize the data to the clients.
+The privacy server will act as an anonymisation server, protecting the privacy of the students. The clients that interact with the privacy server will be able to retrieve their own data (the student ID will act as a token that gives access to individual data). When retrieved group data, the proxy server will anonymize the data to the clients.
 
 ## Code
 
