@@ -104,7 +104,6 @@ int main(void)
 		jobj_object_type = json_object_object_get(jobj_obj, "type");
 		jobj_object_activity = json_object_object_get(jobj_obj, "activity");
 		jobj_object_location = json_object_object_get(jobj_obj, "location");
-		jobj_object_latlong= json_object_object_get(jobj_obj, "LatLong");
 		jobj_object_callsduration = json_object_object_get(jobj_obj, "calls_duration");
 		jobj_object_callsmade = json_object_object_get(jobj_obj, "calls_made");
 		jobj_object_callsmissed = json_object_object_get(jobj_obj, "calls_missed");
@@ -118,7 +117,6 @@ int main(void)
 		printf("type=%s\n", json_object_get_string(jobj_object_type));
 		printf("activity=%s\n", json_object_get_string(jobj_object_activity));
 		printf("location=%s\n", json_object_get_string(jobj_object_location));
-		printf("LatLong=%s\n", json_object_get_string(jobj_object_latlong));
 		printf("Calls duration(s)=%s\n", json_object_get_string(jobj_object_callsduration));
 		printf("Calls made=%s\n", json_object_get_string(jobj_object_callsmade));
 		printf("Calls missed=%s\n", json_object_get_string(jobj_object_callsmissed));
