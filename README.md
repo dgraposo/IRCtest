@@ -13,11 +13,11 @@ The privacy server will act as an anonymisation server, protecting the privacy o
 1. Create a JSON object to store the JSON data 
  ```c
 	struct json_object *jobj_array, *jobj_obj;
- ´´´
+ ```
  2. Get the student data from the ISABELA API 
  ```c
 	jobj_array = get_student_data();
- ´´´
+ ```
  3. Get individual fields from the array of data
  ```c
 	arraylen = json_object_array_length(jobj_array);
@@ -26,7 +26,7 @@ The privacy server will act as an anonymisation server, protecting the privacy o
 		jobj_object_location = json_object_object_get(jobj_obj, "location");
 		printf("location=%s\n", json_object_get_string(jobj_object_location));
 	}
- ´´´
+ ```
  
 The fields available in the ISABELA API are:
 * id: student ID code;
