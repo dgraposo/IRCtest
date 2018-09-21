@@ -1,0 +1,5 @@
+C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/PACKAGE.dir
+C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/json-c.dir
+C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/INSTALL.dir
+C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/ALL_BUILD.dir
+C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/ZERO_CHECK.dir
