@@ -2,11 +2,19 @@
 #include <json.h>
 #include <curl/curl.h>
 
+
+/*
+This example project use the Json-C library to decode the objects to C char arrays and 
+use the C libcurl library to request the data to the API.
+*/
+
+
 struct string {
 	char *ptr;
 	size_t len;
 };
 
+//Write function to write the payload response in the string structure
 size_t writefunc(void *ptr, size_t size, size_t nmemb, struct string *s)
 {
 	size_t new_len = s->len + size*nmemb;
@@ -22,6 +30,7 @@ size_t writefunc(void *ptr, size_t size, size_t nmemb, struct string *s)
 	return size*nmemb;
 }
 
+//Initilize the payload string
 void init_string(struct string *s) {
 	s->len = 0;
 	s->ptr = malloc(s->len + 1);
@@ -32,6 +41,7 @@ void init_string(struct string *s) {
 	s->ptr[0] = '\0';
 }
 
+//Get the Data from the API and return a JSON Object
 struct json_object *get_student_data()
 {
 	struct string s;
@@ -91,15 +101,18 @@ int main(void)
 	int arraylen = 0;
 	int i;
 	
+	//Get the student data
 	jobj_array = get_student_data();
-	printf("jobj from str:\n---\n%s\n---\n", json_object_to_json_string_ext(jobj_array, JSON_C_TO_STRING_SPACED | JSON_C_TO_STRING_PRETTY));
 	
+	//Get array length
 	arraylen = json_object_array_length(jobj_array);
-
+	
+	//Example of howto retrieve the data
 	for (i = 0; i < arraylen; i++) {
-		// get the i-th object in jobj_array
+		//get the i-th object in jobj_array
 		jobj_obj = json_object_array_get_idx(jobj_array, i);
-		// get the name attribute in the i-th object
+		
+		//get the name attribute in the i-th object
 		jobj_object_id = json_object_object_get(jobj_obj, "id");
 		jobj_object_type = json_object_object_get(jobj_obj, "type");
 		jobj_object_activity = json_object_object_get(jobj_obj, "activity");
@@ -111,9 +124,9 @@ int main(void)
 		jobj_object_department = json_object_object_get(jobj_obj, "department");
 		jobj_object_smsreceived = json_object_object_get(jobj_obj, "sms_received");
 		jobj_object_smssent = json_object_object_get(jobj_obj, "sms_sent");
-		// print out the name attribute
+		
+		//print out the name attribute
 		printf("id=%s\n", json_object_get_string(jobj_object_id));
-
 		printf("type=%s\n", json_object_get_string(jobj_object_type));
 		printf("activity=%s\n", json_object_get_string(jobj_object_activity));
 		printf("location=%s\n", json_object_get_string(jobj_object_location));
