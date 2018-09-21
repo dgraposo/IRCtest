@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#Allow all files of curl
+!/TestIRC/curl/**
+
+
 # User-specific files
 *.suo
 *.user
