@@ -336,3 +336,6 @@ ASALocalRun/
 
 #Allow all files of curl
 !/TestIRC/curl/**
+
+#Allow all file of JSON
+!/TestIRC/json-c-master/**

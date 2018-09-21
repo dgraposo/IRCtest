@@ -1,0 +1,1559 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:23:52.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\3.12.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\3.12.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\3.12.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.57
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/3.12.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b7b32.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:23:54.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_b7b32.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b7b32.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b7b32.dir\Debug\cmTC_b7b32.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b7b32.dir\Debug\cmTC_b7b32.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b7b32.dir\Debug\\" /Fd"cmTC_b7b32.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b7b32.dir\Debug\\" /Fd"cmTC_b7b32.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_b7b32.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_b7b32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_b7b32.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b7b32.dir\Debug\testCCompiler.obj
+  cmTC_b7b32.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_b7b32.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b7b32.dir\Debug\cmTC_b7b32.tlog\unsuccessfulbuild".
+  Touching "cmTC_b7b32.dir\Debug\cmTC_b7b32.tlog\cmTC_b7b32.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_b7b32.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.88
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a45a1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:23:57.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_a45a1.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a45a1.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a45a1.dir\Debug\cmTC_a45a1.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a45a1.dir\Debug\cmTC_a45a1.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a45a1.dir\Debug\\" /Fd"cmTC_a45a1.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a45a1.dir\Debug\\" /Fd"cmTC_a45a1.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_a45a1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_a45a1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_a45a1.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a45a1.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_a45a1.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_a45a1.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a45a1.dir\Debug\cmTC_a45a1.tlog\unsuccessfulbuild".
+  Touching "cmTC_a45a1.dir\Debug\cmTC_a45a1.tlog\cmTC_a45a1.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_a45a1.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.11
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0a246.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:23:58.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_0a246.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0a246.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0a246.dir\Debug\cmTC_0a246.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0a246.dir\Debug\cmTC_0a246.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0a246.dir\Debug\\" /Fd"cmTC_0a246.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0a246.dir\Debug\\" /Fd"cmTC_0a246.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_0a246.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_0a246.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_0a246.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0a246.dir\Debug\feature_tests.obj
+  cmTC_0a246.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_0a246.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0a246.dir\Debug\cmTC_0a246.tlog\unsuccessfulbuild".
+  Touching "cmTC_0a246.dir\Debug\cmTC_0a246.tlog\cmTC_0a246.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_0a246.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.68
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_65068.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:01.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_65068.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_65068.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_65068.dir\Debug\cmTC_65068.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_65068.dir\Debug\cmTC_65068.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_65068.dir\Debug\\" /Fd"cmTC_65068.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_65068.dir\Debug\\" /Fd"cmTC_65068.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_65068.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_65068.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_65068.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_65068.dir\Debug\CheckIncludeFile.obj
+  cmTC_65068.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_65068.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_65068.dir\Debug\cmTC_65068.tlog\unsuccessfulbuild".
+  Touching "cmTC_65068.dir\Debug\cmTC_65068.tlog\cmTC_65068.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_65068.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.70
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4a00e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:03.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_4a00e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4a00e.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4a00e.dir\Debug\cmTC_4a00e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4a00e.dir\Debug\cmTC_4a00e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4a00e.dir\Debug\\" /Fd"cmTC_4a00e.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4a00e.dir\Debug\\" /Fd"cmTC_4a00e.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_4a00e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_4a00e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_4a00e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4a00e.dir\Debug\CheckIncludeFile.obj
+  cmTC_4a00e.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_4a00e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4a00e.dir\Debug\cmTC_4a00e.tlog\unsuccessfulbuild".
+  Touching "cmTC_4a00e.dir\Debug\cmTC_4a00e.tlog\cmTC_4a00e.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_4a00e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.18
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0c6a5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:05.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_0c6a5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0c6a5.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0c6a5.dir\Debug\cmTC_0c6a5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0c6a5.dir\Debug\cmTC_0c6a5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0c6a5.dir\Debug\\" /Fd"cmTC_0c6a5.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0c6a5.dir\Debug\\" /Fd"cmTC_0c6a5.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_0c6a5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_0c6a5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_0c6a5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0c6a5.dir\Debug\CheckIncludeFile.obj
+  cmTC_0c6a5.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_0c6a5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_0c6a5.dir\Debug\cmTC_0c6a5.tlog\unsuccessfulbuild".
+  Touching "cmTC_0c6a5.dir\Debug\cmTC_0c6a5.tlog\cmTC_0c6a5.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_0c6a5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_833cc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:07.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_833cc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_833cc.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_833cc.dir\Debug\cmTC_833cc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_833cc.dir\Debug\cmTC_833cc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_833cc.dir\Debug\\" /Fd"cmTC_833cc.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_833cc.dir\Debug\\" /Fd"cmTC_833cc.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_833cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_833cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_833cc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_833cc.dir\Debug\CheckIncludeFile.obj
+  cmTC_833cc.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_833cc.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_833cc.dir\Debug\cmTC_833cc.tlog\unsuccessfulbuild".
+  Touching "cmTC_833cc.dir\Debug\cmTC_833cc.tlog\cmTC_833cc.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_833cc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_04a23.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:10.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_04a23.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_04a23.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_04a23.dir\Debug\cmTC_04a23.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_04a23.dir\Debug\cmTC_04a23.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_04a23.dir\Debug\\" /Fd"cmTC_04a23.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_04a23.dir\Debug\\" /Fd"cmTC_04a23.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckIncludeFiles\STDC_HEADERS.c"
+  
+  STDC_HEADERS.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_04a23.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_04a23.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_04a23.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_04a23.dir\Debug\STDC_HEADERS.obj
+  cmTC_04a23.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_04a23.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_04a23.dir\Debug\cmTC_04a23.tlog\unsuccessfulbuild".
+  Touching "cmTC_04a23.dir\Debug\cmTC_04a23.tlog\cmTC_04a23.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_04a23.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.53
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8ef97.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:13.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_8ef97.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8ef97.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8ef97.dir\Debug\cmTC_8ef97.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8ef97.dir\Debug\cmTC_8ef97.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8ef97.dir\Debug\\" /Fd"cmTC_8ef97.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8ef97.dir\Debug\\" /Fd"cmTC_8ef97.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_8ef97.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_8ef97.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_8ef97.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8ef97.dir\Debug\CheckIncludeFile.obj
+  cmTC_8ef97.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_8ef97.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8ef97.dir\Debug\cmTC_8ef97.tlog\unsuccessfulbuild".
+  Touching "cmTC_8ef97.dir\Debug\cmTC_8ef97.tlog\cmTC_8ef97.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_8ef97.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3e2d6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:18.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_3e2d6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3e2d6.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3e2d6.dir\Debug\cmTC_3e2d6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3e2d6.dir\Debug\cmTC_3e2d6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3e2d6.dir\Debug\\" /Fd"cmTC_3e2d6.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3e2d6.dir\Debug\\" /Fd"cmTC_3e2d6.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_3e2d6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_3e2d6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_3e2d6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3e2d6.dir\Debug\CheckIncludeFile.obj
+  cmTC_3e2d6.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_3e2d6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3e2d6.dir\Debug\cmTC_3e2d6.tlog\unsuccessfulbuild".
+  Touching "cmTC_3e2d6.dir\Debug\cmTC_3e2d6.tlog\cmTC_3e2d6.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_3e2d6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9778a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:19.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_9778a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9778a.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9778a.dir\Debug\cmTC_9778a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9778a.dir\Debug\cmTC_9778a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9778a.dir\Debug\\" /Fd"cmTC_9778a.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9778a.dir\Debug\\" /Fd"cmTC_9778a.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_9778a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_9778a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_9778a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9778a.dir\Debug\CheckIncludeFile.obj
+  cmTC_9778a.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_9778a.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9778a.dir\Debug\cmTC_9778a.tlog\unsuccessfulbuild".
+  Touching "cmTC_9778a.dir\Debug\cmTC_9778a.tlog\cmTC_9778a.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_9778a.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_1087e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:21.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_1087e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_1087e.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_1087e.dir\Debug\cmTC_1087e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_1087e.dir\Debug\cmTC_1087e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1087e.dir\Debug\\" /Fd"cmTC_1087e.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1087e.dir\Debug\\" /Fd"cmTC_1087e.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_1087e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_1087e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_1087e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1087e.dir\Debug\CheckIncludeFile.obj
+  cmTC_1087e.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_1087e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_1087e.dir\Debug\cmTC_1087e.tlog\unsuccessfulbuild".
+  Touching "cmTC_1087e.dir\Debug\cmTC_1087e.tlog\cmTC_1087e.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_1087e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_96ad7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:23.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_96ad7.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_96ad7.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_96ad7.dir\Debug\cmTC_96ad7.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_96ad7.dir\Debug\cmTC_96ad7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_96ad7.dir\Debug\\" /Fd"cmTC_96ad7.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_96ad7.dir\Debug\\" /Fd"cmTC_96ad7.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_96ad7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_96ad7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_96ad7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_96ad7.dir\Debug\CheckIncludeFile.obj
+  cmTC_96ad7.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_96ad7.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_96ad7.dir\Debug\cmTC_96ad7.tlog\unsuccessfulbuild".
+  Touching "cmTC_96ad7.dir\Debug\cmTC_96ad7.tlog\cmTC_96ad7.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_96ad7.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_81b42.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:25.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_81b42.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_81b42.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_81b42.dir\Debug\cmTC_81b42.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_81b42.dir\Debug\cmTC_81b42.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_81b42.dir\Debug\\" /Fd"cmTC_81b42.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_81b42.dir\Debug\\" /Fd"cmTC_81b42.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_81b42.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_81b42.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_81b42.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_81b42.dir\Debug\CheckIncludeFile.obj
+  cmTC_81b42.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_81b42.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_81b42.dir\Debug\cmTC_81b42.tlog\unsuccessfulbuild".
+  Touching "cmTC_81b42.dir\Debug\cmTC_81b42.tlog\cmTC_81b42.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_81b42.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9fb36.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:28.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_9fb36.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9fb36.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9fb36.dir\Debug\cmTC_9fb36.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9fb36.dir\Debug\cmTC_9fb36.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9fb36.dir\Debug\\" /Fd"cmTC_9fb36.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9fb36.dir\Debug\\" /Fd"cmTC_9fb36.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_9fb36.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_9fb36.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_9fb36.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9fb36.dir\Debug\CheckIncludeFile.obj
+  cmTC_9fb36.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_9fb36.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9fb36.dir\Debug\cmTC_9fb36.tlog\unsuccessfulbuild".
+  Touching "cmTC_9fb36.dir\Debug\cmTC_9fb36.tlog\cmTC_9fb36.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_9fb36.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+
+Determining if the _isnan exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_585ad.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:31.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_585ad.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_585ad.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_585ad.dir\Debug\cmTC_585ad.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_585ad.dir\Debug\cmTC_585ad.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_585ad.dir\Debug\\" /Fd"cmTC_585ad.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_585ad.dir\Debug\\" /Fd"cmTC_585ad.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_585ad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_585ad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_585ad.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_585ad.dir\Debug\CheckSymbolExists.obj
+  cmTC_585ad.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_585ad.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_585ad.dir\Debug\cmTC_585ad.tlog\unsuccessfulbuild".
+  Touching "cmTC_585ad.dir\Debug\cmTC_585ad.tlog\cmTC_585ad.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_585ad.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _isnan
+  return ((int*)(&_isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _finite exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b6d67.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:33.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_b6d67.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b6d67.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b6d67.dir\Debug\cmTC_b6d67.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b6d67.dir\Debug\cmTC_b6d67.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b6d67.dir\Debug\\" /Fd"cmTC_b6d67.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b6d67.dir\Debug\\" /Fd"cmTC_b6d67.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_b6d67.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_b6d67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_b6d67.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b6d67.dir\Debug\CheckSymbolExists.obj
+  cmTC_b6d67.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_b6d67.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b6d67.dir\Debug\cmTC_b6d67.tlog\unsuccessfulbuild".
+  Touching "cmTC_b6d67.dir\Debug\cmTC_b6d67.tlog\cmTC_b6d67.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_b6d67.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _finite
+  return ((int*)(&_finite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a33c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:34.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_a33c5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a33c5.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a33c5.dir\Debug\cmTC_a33c5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a33c5.dir\Debug\cmTC_a33c5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a33c5.dir\Debug\\" /Fd"cmTC_a33c5.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a33c5.dir\Debug\\" /Fd"cmTC_a33c5.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_a33c5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_a33c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_a33c5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a33c5.dir\Debug\CheckSymbolExists.obj
+  cmTC_a33c5.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_a33c5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a33c5.dir\Debug\cmTC_a33c5.tlog\unsuccessfulbuild".
+  Touching "cmTC_a33c5.dir\Debug\cmTC_a33c5.tlog\cmTC_a33c5.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_a33c5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.48
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_614b9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:36.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_614b9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_614b9.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_614b9.dir\Debug\cmTC_614b9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_614b9.dir\Debug\cmTC_614b9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_614b9.dir\Debug\\" /Fd"cmTC_614b9.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_614b9.dir\Debug\\" /Fd"cmTC_614b9.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_614b9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_614b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_614b9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_614b9.dir\Debug\CheckSymbolExists.obj
+  cmTC_614b9.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_614b9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_614b9.dir\Debug\cmTC_614b9.tlog\unsuccessfulbuild".
+  Touching "cmTC_614b9.dir\Debug\cmTC_614b9.tlog\cmTC_614b9.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_614b9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_16b89.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:38.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_16b89.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_16b89.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_16b89.dir\Debug\cmTC_16b89.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_16b89.dir\Debug\cmTC_16b89.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_16b89.dir\Debug\\" /Fd"cmTC_16b89.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_16b89.dir\Debug\\" /Fd"cmTC_16b89.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_16b89.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_16b89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_16b89.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_16b89.dir\Debug\CheckSymbolExists.obj
+  cmTC_16b89.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_16b89.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_16b89.dir\Debug\cmTC_16b89.tlog\unsuccessfulbuild".
+  Touching "cmTC_16b89.dir\Debug\cmTC_16b89.tlog\cmTC_16b89.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_16b89.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the nan exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d38fa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:39.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_d38fa.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d38fa.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d38fa.dir\Debug\cmTC_d38fa.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d38fa.dir\Debug\cmTC_d38fa.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d38fa.dir\Debug\\" /Fd"cmTC_d38fa.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d38fa.dir\Debug\\" /Fd"cmTC_d38fa.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_d38fa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_d38fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_d38fa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d38fa.dir\Debug\CheckSymbolExists.obj
+  cmTC_d38fa.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_d38fa.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d38fa.dir\Debug\cmTC_d38fa.tlog\unsuccessfulbuild".
+  Touching "cmTC_d38fa.dir\Debug\cmTC_d38fa.tlog\cmTC_d38fa.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_d38fa.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_697ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:43.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_697ee.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_697ee.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_697ee.dir\Debug\cmTC_697ee.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_697ee.dir\Debug\cmTC_697ee.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_697ee.dir\Debug\\" /Fd"cmTC_697ee.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_697ee.dir\Debug\\" /Fd"cmTC_697ee.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_697ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_697ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_697ee.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_697ee.dir\Debug\CheckSymbolExists.obj
+  cmTC_697ee.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_697ee.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_697ee.dir\Debug\cmTC_697ee.tlog\unsuccessfulbuild".
+  Touching "cmTC_697ee.dir\Debug\cmTC_697ee.tlog\cmTC_697ee.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_697ee.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the vprintf exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a1f38.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:45.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_a1f38.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a1f38.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a1f38.dir\Debug\cmTC_a1f38.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a1f38.dir\Debug\cmTC_a1f38.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a1f38.dir\Debug\\" /Fd"cmTC_a1f38.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a1f38.dir\Debug\\" /Fd"cmTC_a1f38.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_a1f38.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_a1f38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_a1f38.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a1f38.dir\Debug\CheckSymbolExists.obj
+  cmTC_a1f38.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_a1f38.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_a1f38.dir\Debug\cmTC_a1f38.tlog\unsuccessfulbuild".
+  Touching "cmTC_a1f38.dir\Debug\cmTC_a1f38.tlog\cmTC_a1f38.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_a1f38.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realloc exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_24a84.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:48.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_24a84.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_24a84.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_24a84.dir\Debug\cmTC_24a84.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_24a84.dir\Debug\cmTC_24a84.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_24a84.dir\Debug\\" /Fd"cmTC_24a84.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_24a84.dir\Debug\\" /Fd"cmTC_24a84.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_24a84.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_24a84.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_24a84.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_24a84.dir\Debug\CheckSymbolExists.obj
+  cmTC_24a84.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_24a84.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_24a84.dir\Debug\cmTC_24a84.tlog\unsuccessfulbuild".
+  Touching "cmTC_24a84.dir\Debug\cmTC_24a84.tlog\cmTC_24a84.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_24a84.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.41
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6639d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:50.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_6639d.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_6639d.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_6639d.dir\Debug\cmTC_6639d.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_6639d.dir\Debug\cmTC_6639d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6639d.dir\Debug\\" /Fd"cmTC_6639d.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6639d.dir\Debug\\" /Fd"cmTC_6639d.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_6639d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_6639d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_6639d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6639d.dir\Debug\CheckSymbolExists.obj
+  cmTC_6639d.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_6639d.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_6639d.dir\Debug\cmTC_6639d.tlog\unsuccessfulbuild".
+  Touching "cmTC_6639d.dir\Debug\cmTC_6639d.tlog\cmTC_6639d.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_6639d.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.97
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strdup exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_083a3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:53.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_083a3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_083a3.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_083a3.dir\Debug\cmTC_083a3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_083a3.dir\Debug\cmTC_083a3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_083a3.dir\Debug\\" /Fd"cmTC_083a3.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_083a3.dir\Debug\\" /Fd"cmTC_083a3.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_083a3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_083a3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_083a3.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_083a3.dir\Debug\CheckSymbolExists.obj
+  cmTC_083a3.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_083a3.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_083a3.dir\Debug\cmTC_083a3.tlog\unsuccessfulbuild".
+  Touching "cmTC_083a3.dir\Debug\cmTC_083a3.tlog\cmTC_083a3.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_083a3.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d5431.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:54.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_d5431.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d5431.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d5431.dir\Debug\cmTC_d5431.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d5431.dir\Debug\cmTC_d5431.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d5431.dir\Debug\\" /Fd"cmTC_d5431.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d5431.dir\Debug\\" /Fd"cmTC_d5431.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_d5431.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_d5431.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_d5431.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d5431.dir\Debug\CheckSymbolExists.obj
+  cmTC_d5431.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_d5431.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d5431.dir\Debug\cmTC_d5431.tlog\unsuccessfulbuild".
+  Touching "cmTC_d5431.dir\Debug\cmTC_d5431.tlog\cmTC_d5431.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_d5431.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.37
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4dbc6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:56.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_4dbc6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4dbc6.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4dbc6.dir\Debug\cmTC_4dbc6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4dbc6.dir\Debug\cmTC_4dbc6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4dbc6.dir\Debug\\" /Fd"cmTC_4dbc6.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4dbc6.dir\Debug\\" /Fd"cmTC_4dbc6.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_4dbc6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_4dbc6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_4dbc6.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4dbc6.dir\Debug\CheckSymbolExists.obj
+  cmTC_4dbc6.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_4dbc6.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4dbc6.dir\Debug\cmTC_4dbc6.tlog\unsuccessfulbuild".
+  Touching "cmTC_4dbc6.dir\Debug\cmTC_4dbc6.tlog\cmTC_4dbc6.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_4dbc6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.05
+
+File C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b7fe2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:58.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_b7fe2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b7fe2.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b7fe2.dir\Debug\cmTC_b7fe2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b7fe2.dir\Debug\cmTC_b7fe2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b7fe2.dir\Debug\\" /Fd"cmTC_b7fe2.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b7fe2.dir\Debug\\" /Fd"cmTC_b7fe2.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_b7fe2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_b7fe2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_b7fe2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b7fe2.dir\Debug\CheckIncludeFile.obj
+  cmTC_b7fe2.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_b7fe2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_b7fe2.dir\Debug\cmTC_b7fe2.tlog\unsuccessfulbuild".
+  Touching "cmTC_b7fe2.dir\Debug\cmTC_b7fe2.tlog\cmTC_b7fe2.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_b7fe2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.03
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c616c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:24:59.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_c616c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c616c.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c616c.dir\Debug\cmTC_c616c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c616c.dir\Debug\cmTC_c616c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c616c.dir\Debug\\" /Fd"cmTC_c616c.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c616c.dir\Debug\\" /Fd"cmTC_c616c.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  
+  SIZEOF_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_c616c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_c616c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_c616c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c616c.dir\Debug\SIZEOF_INT.obj
+  cmTC_c616c.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_c616c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c616c.dir\Debug\cmTC_c616c.tlog\unsuccessfulbuild".
+  Touching "cmTC_c616c.dir\Debug\cmTC_c616c.tlog\cmTC_c616c.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_c616c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.62
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_488c2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:25:02.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_488c2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_488c2.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_488c2.dir\Debug\cmTC_488c2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_488c2.dir\Debug\cmTC_488c2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_488c2.dir\Debug\\" /Fd"cmTC_488c2.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_488c2.dir\Debug\\" /Fd"cmTC_488c2.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_INT64_T.c"
+  
+  SIZEOF_INT64_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_488c2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_488c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_488c2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_488c2.dir\Debug\SIZEOF_INT64_T.obj
+  cmTC_488c2.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_488c2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_488c2.dir\Debug\cmTC_488c2.tlog\unsuccessfulbuild".
+  Touching "cmTC_488c2.dir\Debug\cmTC_488c2.tlog\cmTC_488c2.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_488c2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_83868.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:25:03.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_83868.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_83868.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_83868.dir\Debug\cmTC_83868.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_83868.dir\Debug\cmTC_83868.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_83868.dir\Debug\\" /Fd"cmTC_83868.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_83868.dir\Debug\\" /Fd"cmTC_83868.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  
+  SIZEOF_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_83868.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_83868.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_83868.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_83868.dir\Debug\SIZEOF_LONG.obj
+  cmTC_83868.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_83868.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_83868.dir\Debug\cmTC_83868.tlog\unsuccessfulbuild".
+  Touching "cmTC_83868.dir\Debug\cmTC_83868.tlog\cmTC_83868.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_83868.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.44
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bf320.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:25:05.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_bf320.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bf320.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bf320.dir\Debug\cmTC_bf320.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bf320.dir\Debug\cmTC_bf320.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bf320.dir\Debug\\" /Fd"cmTC_bf320.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bf320.dir\Debug\\" /Fd"cmTC_bf320.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  
+  SIZEOF_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_bf320.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_bf320.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_bf320.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bf320.dir\Debug\SIZEOF_LONG_LONG.obj
+  cmTC_bf320.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_bf320.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_bf320.dir\Debug\cmTC_bf320.tlog\unsuccessfulbuild".
+  Touching "cmTC_bf320.dir\Debug\cmTC_bf320.tlog\cmTC_bf320.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_bf320.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2f25e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 20/09/2018 09:25:07.
+Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_2f25e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2f25e.dir\Debug\".
+  Creating directory "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2f25e.dir\Debug\cmTC_2f25e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2f25e.dir\Debug\cmTC_2f25e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2f25e.dir\Debug\\" /Fd"cmTC_2f25e.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2f25e.dir\Debug\\" /Fd"cmTC_2f25e.dir\Debug\vc120.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  
+  SIZEOF_SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_2f25e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_2f25e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Duarte/Desktop/json-c-master/json-c-master/CMakeFiles/CMakeTmp/Debug/cmTC_2f25e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2f25e.dir\Debug\SIZEOF_SIZE_T.obj
+  cmTC_2f25e.vcxproj -> C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\Debug\cmTC_2f25e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_2f25e.dir\Debug\cmTC_2f25e.tlog\unsuccessfulbuild".
+  Touching "cmTC_2f25e.dir\Debug\cmTC_2f25e.tlog\cmTC_2f25e.lastbuildstate".
+Done Building Project "C:\Users\Duarte\Desktop\json-c-master\json-c-master\CMakeFiles\CMakeTmp\cmTC_2f25e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.14
+
+
