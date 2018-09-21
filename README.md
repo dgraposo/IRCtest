@@ -30,12 +30,12 @@ The privacy server will act as an anonymisation server, protecting the privacy o
  
 The fields available in the ISABELA API are:
 * id: student ID code (check your ID in the ISABELA Android settings);
-* activity: student activity (Exercise,Sleeping,Classes,Tilting,Walking,In vehicle,Unknown,Still)
-* location: student location (University, House, Other)
-* callsduration: duration of calls made in the last 5 seconds
-* callsmade: number of calls made in the last 5 seconds
-* callsmissed: number of calls missed in the last 5 seconds
-* callsreceived: number of calls received in the last 5 seconds
-* department: name of the department (DEI)
-* smsreceived: number of sms received in the last 5 seconds
-* smssent: number of sms sent in the last 5 seconds
+* activity: student activity (Exercise,Sleeping,Classes,Tilting,Walking,In vehicle,Unknown,Still);
+* location: student location (University, House, Other);
+* callsduration: duration of calls made in the last 5 seconds;
+* callsmade: number of calls made in the last 5 seconds;
+* callsmissed: number of calls missed in the last 5 seconds;
+* callsreceived: number of calls received in the last 5 seconds;
+* department: name of the department (DEI);
+* smsreceived: number of sms received in the last 5 seconds;
+* smssent: number of sms sent in the last 5 seconds;
