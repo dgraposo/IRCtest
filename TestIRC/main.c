@@ -54,8 +54,11 @@ struct json_object *get_student_data()
 	init_string(&s);
 
 	curl_easy_setopt(hnd, CURLOPT_CUSTOMREQUEST, "GET");
-	curl_easy_setopt(hnd, CURLOPT_URL, "http://10.3.4.75:9000/v2/entities?options=keyValues&type=student&attrs=LatLong,activity,calls_duration,calls_made,calls_missed,calls_received,department,location,sms_received,sms_sent");
-
+	//To run on department network
+	//curl_easy_setopt(hnd, CURLOPT_URL, "http://10.3.4.75:9014/v2/entities?options=keyValues&type=student&attrs=activity,calls_duration,calls_made,calls_missed,calls_received,department,location,sms_received,sms_sent");
+        //To run outise
+	curl_easy_setopt(hnd, CURLOPT_URL, "http://socialiteorion2.dei.uc.pt:9014/v2/entities?options=keyValues&type=student&attrs=activity,calls_duration,calls_made,calls_missed,calls_received,department,location,sms_received,sms_sent");
+	
 	//Add headers
 	struct curl_slist *headers = NULL;
 	headers = curl_slist_append(headers, "cache-control: no-cache");
