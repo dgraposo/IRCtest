@@ -1,8 +1,8 @@
 # IRC Privacy Server
 This git repo gives you a sample code to interact with ISABELA API. There are two sample codes:
 
-- Built to Visual Studio Community and is available in the master branch. 
-- Built to the linux and gcc compiler and is available on the linux-gcc branch.
+- Built to Visual Studio Community and available in the master branch. 
+- Built to the linux and gcc compiler and available on the linux-gcc branch.
 
 ## Linux-GCC
 
