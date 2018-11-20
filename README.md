@@ -6,18 +6,18 @@ This git repo gives you a sample code to interact with ISABELA API. There are tw
 
 ## Linux-GCC
 
-Install on Ubuntu:
-1. Download the code
+Install on Ubuntu
+1. Download the code:
 ```console
 git clone https://github.com/dgraposo/IRCtest.git
 ```
-2. Checkout to the linux branch
+2. Checkout to the linux branch:
 ```console
 git checkout linux-gcc
 ```
 3. Install all the missing libraries with apt-get (gcc,clang,libtool,autoconf,automake), see the [instructions](https://github.com/json-c/json-c)
 
-4. Run the following commands in json-c path directory
+4. Run the following commands in json-c path:
 ```console
    sh autogen.sh
    ./configure
@@ -26,17 +26,17 @@ git checkout linux-gcc
    make check
 ```
 
-5. Install libcurl 
+5. Install libcurl: 
 ```console
    sudo apt-get install libcurl4-gnutls-dev
 ```
-6. Add the library to the environment variables
+6. Add the library to the environment variables:
 ```console
    export LD_RUN_PATH=/usr/local/lib
    export LD_LIBRARY_PATH=/usr/local/lib/
 ```
 
-7. Compile the application using gcc
+7. Compile the application using gcc:
 ```console
    gcc main.c -o main -lcurl -ljson-c
 ```
