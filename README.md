@@ -1,5 +1,48 @@
 # IRC Privacy Server
-This example gives you a sample code to interact with ISABELA API. The sample code was built to Visual Studio Community. If you want to run the code, with all the libraries already installed and pre-compiled, you need to install the [Visual Studio Community 2013](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2013-community-vs) (V120 Build tools). 
+This git repo gives you a sample code to interact with ISABELA API. There are two sample codes:
+
+- Built to Visual Studio Community and is available in the master branch. 
+- Built to the linux and gcc compiler and is available on the linux-gcc branch.
+
+## Linux-GCC
+
+Install on Ubuntu:
+1. Download the code
+```console
+git clone https://github.com/dgraposo/IRCtest.git
+```
+2. Checkout to the linux branch
+```console
+git checkout linux-gcc
+```
+3. Install all the missing libraries with apt-get (gcc,clang,libtool,autoconf,automake), see the [instructions](https://github.com/json-c/json-c)
+
+4. Run the following commands in json-c path directory
+```console
+   sh autogen.sh
+   ./configure
+   make
+   make install (need sudo)
+   make check
+```
+
+5. Install libcurl 
+```console
+   sudo apt-get install libcurl4-gnutls-dev
+```
+6. Add the library to the environment variables
+```console
+   export LD_RUN_PATH=/usr/local/lib
+   export LD_LIBRARY_PATH=/usr/local/lib/
+```
+
+7. Compile the application using gcc
+```console
+   gcc main.c -o main -lcurl -ljson-c
+```
+
+## Visual Studio
+If you want to run the code, with all the libraries already installed and pre-compiled, you need to install the [Visual Studio Community 2013](https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2013-community-vs) (V120 Build tools). 
 
 If you want to create the example from scracth in another IDE, the following libraries need to be installed:
 * The [Libcurl C library](https://curl.haxx.se/libcurl/);
@@ -8,7 +51,7 @@ If you want to create the example from scracth in another IDE, the following lib
 The data is retrieved by invoking an HTTP GET, and a JSON array object is retrieved by the API (with the data from the students). 
 The privacy server will act as an anonymisation server, protecting the privacy of the students. The clients that interact with the privacy server will be able to retrieve their own data (the student ID will act as a token that gives access to individual data). When retrieved other student's data, the proxy will anonymize the data to the clients.
 
-## Code
+# Understanding the code
 
 1. Create a JSON object to store the JSON data 
  ```c
